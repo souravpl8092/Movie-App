@@ -3,5 +3,5 @@
 <p>
 Created movie app  where user can get all movie details.</p>
 <div>
-<img src="https://i.imgur.com/a5hswe4.png" align="center"></img>
+<img src="https://i.imgur.com/4nZFtC8.png" align="center"></img>
 </div>
