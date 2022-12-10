@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="movieapp_css.css">
+    <style>
+     
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <i class="fab fa-earlybirds"></i><span> Night Owl</span> </i>
+    </header>
+
+    <div class="below">
+      <h3 class="feature"><i class="fas fa-video"></i> Featured Movies</h3>
+      <input type="text" id="name" oninput="debounce(displayMovie,3000)" placeholder="Movie name....."/>
+      <i class="fas fa-search"></i>
+    </div>
+    <div id="searchResult"></div>
+    <div class="container"></div>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="movieapp_js.js"></script>
+
